@@ -1,0 +1,165 @@
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-family: $fontHelveticaNeue;
+    background: $alabaster;
+}
+
+a {
+    text-decoration: none;
+    opacity: 1;
+    transition: opacity 0.1s ease-in-out;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+button {
+    opacity: 1;
+    transition: opacity 0.1s ease-in-out;
+    font-family: $fontRoboto;
+    background: none;
+    border: 0;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+input {
+    font-family: $fontRoboto;
+    background: none;
+    box-shadow: none;
+
+    &::placeholder {
+        transition: all 0.2s ease;
+    }
+
+    &:focus {
+        outline: 0;
+        border-color: $color_malachite_approx;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+
+        &::placeholder {
+            transition: all 0.2s ease;
+            line-height: 100px;
+        }
+    }
+}
+
+input[type='file'] {
+    border: 0;
+    cursor: pointer;
+
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+textarea {
+    box-shadow: none;
+
+    &:focus {
+        outline: 0;
+        border-color: $color_malachite_approx;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    }
+}
+
+[contenteditable='true'] {
+    &:focus {
+        outline: 0;
+        border-color: $color_malachite_approx;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    }
+}
+
+h2[contenteditable='true'] {
+    &:focus {
+        padding: 3px;
+        background: $white;
+        text-overflow: clip;
+    }
+
+    * {
+        display: inline;
+        white-space: nowrap;
+    }
+
+    br {
+        display: none;
+    }
+}
+
+h1 {
+    font-weight: 600;
+    margin: 0;
+    color: red;
+}
+
+h2 {
+    font-weight: 600;
+    margin: 0;
+}
+
+h3 {
+    font-weight: 600;
+    margin: 0;
+}
+
+h4 {
+    font-weight: 600;
+    margin: 0;
+}
+
+h5 {
+    font-weight: 600;
+    margin: 0;
+}
+
+h6 {
+    font-weight: 600;
+    margin: 0;
+}
+
+div[contenteditable='true'] {
+    white-space: pre-wrap;
+
+    &:empty {
+        &::before {
+            content: attr(placeholder);
+            line-height: 32px;
+            color: $color_silver_chalice_approx;
+        }
+    }
+
+    &:focus {
+        box-shadow: none;
+
+        &:empty {
+            &::before {
+                content: '';
+            }
+        }
+    }
+}
+
+input[type='search'] {
+    &::-webkit-search-cancel-button {
+        appearance: none;
+        margin: -6px 4px 0;
+        cursor: pointer;
+    }
+
+    &::placeholder {
+        text-align: center;
+        vertical-align: top;
+    }
+}

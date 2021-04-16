@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+</head>
+
+<body>
+  <h1>Sign Up: </h1>
+  <form id="signup" method="POST" action="/signup">
+    <input type="email" required name="email" placeholder="Email" />
+    <input type="text" required name="name" placeholder="Name" />
+    <input type="password" required name="password" placeholder="Password" />
+
+    <input type="submit" value="Sign Up" />
+  </form>
+
+  <p>
+    <a href="/signin">Sign In</a>
+  </p>
+
+</body>
+<script>
+  const signupElement = document.getElementById('signup');
+  signupElement.addEventListener('submit', signup);
+
+ function signup() {
+    const xhr = new XMLHttpRequest();
+
+    const data = JSON.stringify({ 
+      email: this.elements.email.value,
+      name: this.elements.name.value,
+      password: this.elements.password.value
+    });
+
+    xhr.open("POST", "/signup",);
+
+    xhr.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
+    xhr.send(data);
+  };
+
+</script>
+
+</html>

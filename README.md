@@ -12,13 +12,13 @@
 
 ### **🎯 Таsks:** ###
 
-✔️ **Таsk1**: Implement REST API without any modules using fake-db API
-✔️ **Таsk2**: 
-✔️ **Таsk3**: 
-✔️ **Таsk4**: 
-✔️ **Таsk5**: 
-✔️ **Таsk6**: 
-✔️ **Таsk7**: 
+✔️ **Таsk1**: Implement REST API without any modules using fake-db API  
+✔️ **Таsk2**: Implement an HTTP server to download, retrieve and delete files (NodeJS)  
+✔️ **Таsk3**: Handle errors in the solution  
+✔️ **Таsk4**: Create a simple chat using a long-polling (Koa)  
+✔️ **Таsk5**: Implement login with passport-local, Facebook, NodeJS, DB and realize sending email form.  
+✔️ **Таsk6**: Create and publish own package to npmjs  
+✔️ **Таsk7**: Task runners and module bundlers. Create Webpack config
 ✔️ **Таsk8**: 
 ✔️ **Таsk9**: 
 ✔️ **Таsk10**: 

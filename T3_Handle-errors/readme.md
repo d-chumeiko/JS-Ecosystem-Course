@@ -1,0 +1,1 @@
+To start project go to "task" folder and enter "node index.js" into terminal

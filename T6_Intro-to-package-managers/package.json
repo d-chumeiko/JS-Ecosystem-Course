@@ -1,0 +1,23 @@
+{
+  "name": "jsmp-infra-task6-package",
+  "version": "1.0.1",
+  "description": "Introduction into web infrastructure. Introduction and package managers. [Udpated]",
+  "main": "./dist/scripts/index.js",
+  "scripts": {
+    "compile": "babel src/scripts --out-dir dist/scripts && babel src/test --out-dir dist/test",
+    "clean": "rimraf dist",
+    "test": "node dist/test",
+    "build": "npm run clean && npm run compile && npm run test"
+  },
+  "author": "d.chumeiko",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "rimraf": "^3.0.2"
+  }
+}
