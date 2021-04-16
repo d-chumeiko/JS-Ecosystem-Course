@@ -12,7 +12,7 @@
 
 ### **🎯 Таsks:** ###
 
-✔️ **Таsk1**: 
+✔️ **Таsk1**: Implement REST API without any modules using fake-db API
 ✔️ **Таsk2**: 
 ✔️ **Таsk3**: 
 ✔️ **Таsk4**: 
