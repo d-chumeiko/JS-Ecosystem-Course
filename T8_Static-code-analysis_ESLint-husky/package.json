@@ -1,0 +1,29 @@
+{
+  "name": "task8",
+  "version": "1.0.0",
+  "description": "Static code analysis",
+  "main": "./src/bad-code.js",
+  "scripts": {
+    "lint": "eslint --debug src/",
+    "lint:write": "eslint --debug src/ --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run lint:write",
+      "git add ."
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "husky": "^1.0.0-rc.13",
+    "lint-staged": "^10.5.4"
+  },
+  "dependencies": {}
+}

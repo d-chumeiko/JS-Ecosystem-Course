@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "ES2020",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "lib": ["es6", "dom"],
+  },
+  "typeRoots": [
+    "../node_modules/@types",
+    "../@types"
+]
+}

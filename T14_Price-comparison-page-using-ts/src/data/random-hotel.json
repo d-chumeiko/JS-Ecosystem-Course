@@ -1,0 +1,155 @@
+[
+    {
+        "date": "2020-06-10",
+        "prices": {
+            "economy": {
+                "value": 35.5,
+                "currency": "EUR"
+            },
+            "standard": {
+                "value": 53.0,
+                "currency": "EUR"
+            },
+            "luxury": {
+                "value": 86.7,
+                "currency": "EUR"
+            }
+        }
+    },
+    {
+        "date": "2020-06-11",
+        "prices": {
+            "economy": {
+                "value": 32.0,
+                "currency": "EUR"
+            },
+            "standard": {
+                "value": 49.3,
+                "currency": "EUR"
+            },
+            "luxury": {
+                "value": 81.5,
+                "currency": "EUR"
+            }
+        }
+    },
+    {
+        "date": "2020-06-12",
+        "prices": {
+            "economy": {
+                "value": 30.0,
+                "currency": "EUR"
+            },
+            "standard": {
+                "value": 45.2,
+                "currency": "EUR"
+            },
+            "luxury": {
+                "value": 78.5,
+                "currency": "EUR"
+            }
+        }
+    },
+    {
+        "date": "2020-06-13",
+        "prices": {
+            "economy": {
+                "value": 30.0,
+                "currency": "EUR"
+            },
+            "standard": {
+                "value": 45.2,
+                "currency": "EUR"
+            },
+            "luxury": {
+                "value": 78.5,
+                "currency": "EUR"
+            }
+        }
+    },
+    {
+        "date": "2020-06-14",
+        "prices": {
+            "economy": {
+                "value": 30.0,
+                "currency": "EUR"
+            },
+            "standard": {
+                "value": 45.2,
+                "currency": "EUR"
+            },
+            "luxury": {
+                "value": 78.5,
+                "currency": "EUR"
+            }
+        }
+    },
+    {
+        "date": "2020-06-15",
+        "prices": {
+            "economy": {
+                "value": 32.0,
+                "currency": "EUR"
+            },
+            "standard": {
+                "value": 49.3,
+                "currency": "EUR"
+            },
+            "luxury": {
+                "value": 81.5,
+                "currency": "EUR"
+            }
+        }
+    },
+    {
+        "date": "2020-06-16",
+        "prices": {
+            "economy": {
+                "value": 35.5,
+                "currency": "EUR"
+            },
+            "standard": {
+                "value": 53.0,
+                "currency": "EUR"
+            },
+            "luxury": {
+                "value": 86.7,
+                "currency": "EUR"
+            }
+        }
+    },
+    {
+        "date": "2020-06-17",
+        "prices": {
+            "economy": {
+                "value": 35.5,
+                "currency": "EUR"
+            },
+            "standard": {
+                "value": 53.0,
+                "currency": "EUR"
+            },
+            "luxury": {
+                "value": 86.7,
+                "currency": "EUR"
+            }
+        }
+    },
+    {
+        "date": "2020-06-18",
+        "prices": {
+            "economy": {
+                "value": 32.0,
+                "currency": "EUR"
+            },
+            "standard": {
+                "value": 49.3,
+                "currency": "EUR"
+            },
+            "luxury": {
+                "value": 81.5,
+                "currency": "EUR"
+            }
+        }
+    }
+]

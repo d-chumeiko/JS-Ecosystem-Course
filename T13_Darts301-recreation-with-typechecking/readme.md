@@ -1,0 +1,3 @@
+- to run compiled code - “npm run game”
+- to build application - “npm run build”
+- to typecheck application - “npm run check”

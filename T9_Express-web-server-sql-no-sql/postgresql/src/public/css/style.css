@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+th.sortable{
+    cursor: pointer;
+}
+th.asc:after{
+    content: '˄';
+    display: inline;
+}
+th.desc:after{
+    content: '˅';
+    display: inline;
+}
+
+.pagination-holder{
+    margin: 20px 0;
+}
+.pagination-holder .pagination{
+    margin: -12px 0 0;
+}

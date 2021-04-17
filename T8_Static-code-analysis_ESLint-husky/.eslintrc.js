@@ -1,0 +1,51 @@
+module.exports = {
+  env: {
+    browser: true,
+    commonjs: true,
+    es2021: true, 
+  },
+  parserOptions: {
+    ecmaVersion: 12,                 
+  },
+  rules: {
+    'no-var': 1,
+    'no-const-assign': 1,
+    'object-shorthand': 1,
+    'quote-props': [1, 'as-needed',],
+    quotes: [1, 'single', 'avoid-escape',],
+    'prefer-template': 1,
+    'space-before-function-paren': [1, 'always',],
+    'func-call-spacing': [1, 'never',],
+    'no-useless-call': 1,
+    'prefer-spread': 1,
+    'comma-dangle': [1 , { functions: 'always', },],
+    'function-call-argument-newline': 1,
+    'prefer-arrow-callback': 1,
+    'arrow-parens': 1,
+    'operator-linebreak': [1, 'none',],
+    eqeqeq: [1, 'always',],
+    'no-unneeded-ternary': [1, {
+      defaultAssignment: false,
+    },],
+    curly: [1, 'multi',],
+    'brace-style': [1, '1tbs',],
+    'no-else-return': [1, {
+      allowElseIf: false,
+    },],
+    'spaced-comment': 1,
+    indent: [1, 2,],
+    'space-before-blocks': 1,
+    'space-infix-ops': [
+      1, {
+        int32Hint: false,
+      },],
+    'newline-per-chained-call': [1, { ignoreChainWithDepth: 2, },],
+    'padded-blocks': [1, 'never',],
+    'space-in-parens': 1,
+    'array-bracket-spacing': 1,
+    'object-curly-spacing': [1, 'always',],
+    'comma-style': 1,
+    semi: 1,
+    'comma-dangle': [1, 'always',],
+  },
+};

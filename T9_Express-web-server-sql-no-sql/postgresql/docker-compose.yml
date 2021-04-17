@@ -1,0 +1,21 @@
+version: "3"
+services:
+  postgres-db:
+    image: "postgres:12"
+    container_name: "task9-db"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=task9_db
+    ports:
+      - '5433:5432'
+  my-node:
+    build: ./node
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "3000:3000"
+      - "9222:9222"
+    tty: true
